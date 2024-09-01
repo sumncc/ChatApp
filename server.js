@@ -16,7 +16,6 @@ var server = http.listen(3000, () => {
     console.log('server is listening on port', server.address().port)
 })
 
-
 //mongoose
 const mongoose = require('mongoose')
 var Message = require('./models/Message');
