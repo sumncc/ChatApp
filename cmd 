@@ -1,0 +1,22 @@
+
+mkdir chatApp
+cd chatApp
+npm init -y
+npm install express mongoose
+npm install lodash -s
+
+npm install body-parser -s
+npm install -s socket.io
+
+//Test
+npm install --save-dev jasmine
+
+npm install --save-dev request
+
+//to use jasmin with nodejs
+./node_modules/.bin/jasmine init
+
+//test 
+npm test
+
+
